@@ -161,6 +161,20 @@
 		6AF630D82C077A17001F4E10 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5A059CE02C285FDC004A19BF /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				FadeInModifier.swift,
+			);
+			target = 6AB474942AACBBE900AB9C63 /* Mythic */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5A6A1C2E2C285F6200097958 /* ViewModifiers */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (5A059CE02C285FDC004A19BF /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = ViewModifiers; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
 		6AB474922AACBBE900AB9C63 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -236,6 +250,7 @@
 		6A2934CA2BFCFAFD0035CE4B /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				5A6A1C2E2C285F6200097958 /* ViewModifiers */,
 				6A2934B22BFCFAFD0035CE4B /* Engine */,
 				6A2934BB2BFCFAFD0035CE4B /* Extensions */,
 				6A2934BE2BFCFAFD0035CE4B /* Legendary */,
